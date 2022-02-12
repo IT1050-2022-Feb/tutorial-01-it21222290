@@ -29,11 +29,11 @@ int main() {
   {
     amount = distance * 50;
   }
-  else if
+  else
   {
     amount = 30 * 50 + ((distance - 30) * 40);
   }
 
-  printf("\nAmount = %f", amount);
+  printf("\nAmount = %.2f", amount);
   return 0;
 }
